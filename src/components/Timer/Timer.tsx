@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "@mui/material/Button";
 import PlayArrowOutlined from "@mui/icons-material/PlayArrowOutlined";
 import PauseOutlined from "@mui/icons-material/PauseOutlined";
