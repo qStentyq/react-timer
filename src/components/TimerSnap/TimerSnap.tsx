@@ -1,4 +1,4 @@
-import { Button, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import { snap } from "../../interfaces/SnapInterface";
 import DeleteIcon from "@mui/icons-material/Delete";
 type TimerSnapProps = snap & {
