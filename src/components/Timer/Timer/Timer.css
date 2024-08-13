@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    font-size: calc(20px + 2vmin);
+    font-size: calc(16px + 2vmin);
     line-height: 2;
     text-transform: capitalize;
 }
@@ -88,15 +88,16 @@ body {
     .buttons {
         /* flex-direction: column;
         align-items: center; */
-        gap: 5px;
+        gap: 2px;
         width: 100%;
         margin-left: 12px;
     }
     .buttons button {
-        padding: 6px 10px;
+        padding: 4px 4px;
+        line-height: 1;
     }
 
     .timer {
-        width: 325px;
+        width: 300px;
     }
 }

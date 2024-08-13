@@ -25,7 +25,7 @@ const TimerSnap: React.FC<TimerSnapProps> = ({ hours, minutes, seconds, milisecs
                 <div className='col-4'>
                     <div className='box'>
                         <p id='minute'>{seconds < 10 ? "0" + seconds : seconds}</p>
-                        <span className='text'>Seconds</span>
+                        <span className='text'>Secs</span>
                     </div>
                 </div>
                 <div className='col-4'>
