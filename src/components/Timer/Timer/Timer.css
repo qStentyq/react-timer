@@ -90,9 +90,13 @@ body {
         align-items: center; */
         gap: 5px;
         width: 100%;
-        margin-bottom: 10px;
+        margin-left: 12px;
     }
     .buttons button {
         padding: 6px 10px;
+    }
+
+    .timer {
+        width: 325px;
     }
 }
