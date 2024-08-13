@@ -87,6 +87,9 @@ const Timer = () => {
             </div>
             <div className='buttons'>
                 <Button
+                    sx={{
+                        width: 80,
+                    }}
                     variant='contained'
                     startIcon={<PlayArrowOutlined />}
                     onClick={() => {
@@ -116,7 +119,7 @@ const Timer = () => {
                 >
                     Reset
                 </Button>
-                <Button variant='contained' onClick={handleSnaps} endIcon={<CameraAltOutlined />}>
+                <Button id='main_btn' variant='contained' onClick={handleSnaps} endIcon={<CameraAltOutlined />}>
                     Snapshot
                 </Button>
             </div>
